@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterManager : MonoBehaviour
 {
     private static CharacterManager _instance;
-    public static CharacterManager instance
+    public static CharacterManager Instance
     {
         get
         {
@@ -16,7 +16,7 @@ public class CharacterManager : MonoBehaviour
             return _instance;
         }
     }
-    public Player player
+    public Player Player
     {
         get { return _player; }
         set { _player = value;  }
