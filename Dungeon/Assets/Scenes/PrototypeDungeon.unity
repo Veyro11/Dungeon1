@@ -10135,7 +10135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemToGive: {fileID: 11400000, guid: 4d3767fec47428a4ea92469d06a0b2a2, type: 2}
   quantityPerHit: 1
-  capacity: 5
+  capacity: 64
 --- !u!1 &1764662336
 GameObject:
   m_ObjectHideFlags: 0
