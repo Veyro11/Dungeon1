@@ -8,7 +8,6 @@ public class UICondition : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("UICondition initialized");
         CharacterManager.Instance.Player.condition.uiCondition = this;
     }
 }

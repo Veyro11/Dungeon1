@@ -18,19 +18,7 @@ public class PlayerCondition : MonoBehaviour, IDamagable
 
     private void Update()
     {
-        if (uiCondition == null)
-        {
-            Debug.LogError(" uiCondition is null");
-            return;
-        }
 
-        if (uiCondition.hunger == null)
-        {
-            Debug.LogError(" uiCondition.hunger is null");
-            return;
-        }
-
-        Debug.Log(" All references are valid. Subtracting hunger...");
         hunger.Subtract(hunger.passiveValue * Time.deltaTime);
         hunger.Subtract(hunger.passiveValue * Time.deltaTime);
         stamina.Add(stamina.passiveValue * Time.deltaTime);
@@ -65,5 +53,15 @@ public class PlayerCondition : MonoBehaviour, IDamagable
     {
         health.Subtract(damageAmount);
         onTakeDamage?.Invoke();
+    }
+
+    public bool UseStamina(float amount)
+    {
+        if (stamina.curValue - amount < 0)
+        {
+            return false;
+        }
+        stamina.Subtract(amount);
+        return true;
     }
 }
