@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AngeloMaN87/Prototype Map/Scenes/Prototype Map.unity
+- path: Assets/Scenes/PrototypeDungeon.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
