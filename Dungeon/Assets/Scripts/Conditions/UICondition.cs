@@ -6,8 +6,9 @@ public class UICondition : MonoBehaviour
     public Condition hunger;
     public Condition stamina;
 
-    void Start()
+    private void Start()
     {
+        Debug.Log("UICondition initialized");
         CharacterManager.Instance.Player.condition.uiCondition = this;
     }
 }
