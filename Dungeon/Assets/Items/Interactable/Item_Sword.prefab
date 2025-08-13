@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d00dec123be83b445adbe6c8f3f02f41, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 49c61f7d98b36a6438e5deb41f0f7207, type: 2}
     - target: {fileID: 919132149155446097, guid: d00dec123be83b445adbe6c8f3f02f41, type: 3}
       propertyPath: m_Name
       value: Item_Sword
@@ -66,6 +70,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d00dec123be83b445adbe6c8f3f02f41, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4951316891610958286}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d00dec123be83b445adbe6c8f3f02f41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6115595543536729433}
   m_SourcePrefab: {fileID: 100100000, guid: d00dec123be83b445adbe6c8f3f02f41, type: 3}
 --- !u!1 &7499538998004104217 stripped
 GameObject:
@@ -120,3 +127,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2939173, y: 1.1839275, z: 0.08148706}
   m_Center: {x: 0, y: 0.45851684, z: 0.00000004656613}
+--- !u!114 &6115595543536729433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499538998004104217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e78a5a58cb431a4ea469e52e3cfb590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 14cd2d95077b69549a3c8a0cf9efac72, type: 2}

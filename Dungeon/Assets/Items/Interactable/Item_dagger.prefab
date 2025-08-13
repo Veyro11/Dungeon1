@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 79f4cdb09da63b74081e5ed761e963ee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 49c61f7d98b36a6438e5deb41f0f7207, type: 2}
     - target: {fileID: 919132149155446097, guid: 79f4cdb09da63b74081e5ed761e963ee, type: 3}
       propertyPath: m_Name
       value: Item_dagger
@@ -66,6 +70,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 79f4cdb09da63b74081e5ed761e963ee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3097197075915891277}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 79f4cdb09da63b74081e5ed761e963ee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5263925385193473727}
   m_SourcePrefab: {fileID: 100100000, guid: 79f4cdb09da63b74081e5ed761e963ee, type: 3}
 --- !u!1 &8040726825703557214 stripped
 GameObject:
@@ -120,3 +127,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5263925385193473727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8040726825703557214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e78a5a58cb431a4ea469e52e3cfb590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: ea2f0d49b7982de48a5dd956b48b872d, type: 2}
